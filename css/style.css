@@ -1,3 +1,26 @@
 .container{
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: ;
+}
 
+.box{
+    border: 2px solid blue;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.footer{
+    grid-area: ft;
+}
+
+.content{
+    grid-area: main;
+}
+
+.sidebar{
+    grid-area: sd;
 }
