@@ -36,7 +36,6 @@ body{
 
 .empty{
     grid-area: n;
-
 }
 
 ul{
@@ -46,7 +45,6 @@ ul{
 
 .header {
     grid-area:a;
-
 }
 
 .footer{
@@ -56,14 +54,11 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     text-align: center;
     color:white;
     background: #3d3d3d;
     border-top: 1px solid;
-    /* min-width: 500px; */
     height: auto;
-
     padding: 0 100px;
 }
 
@@ -82,7 +77,6 @@ ul{
 }
 
 .sidebar-card{
-    /* border: 2px solid blue; */
     background-color: white;
     height: 500px;
     width: 100%;
@@ -93,6 +87,7 @@ ul{
 #card-title{
     margin-top: 44px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 #card-description{
