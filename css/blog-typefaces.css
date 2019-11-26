@@ -4,47 +4,49 @@
 
 h1 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 36px;
     min-width: 200px;
-    margin: 0;
-    line-height: 26px;
-    color:#4F4F4F;
+    line-height: 48px;
+    color: #4f4f4f
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
     line-height: 26px;
-    color:#BDBDBD;
+    color: #4f4f4f;
 
 }
 
 h3 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 26px;
-    margin: 0;
-    color: gray;
+    margin:0;
+    color: #4f4f4f;
 }
 
 h4 {
     font-family: 'Open Sans', sans-serif;
+    font-style: italic;
     font-weight: 500;
-    line-height: 48px;
-    font-size: 36px;
-    margin:0;
-    color:#4F4F4F;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    color: grey;
 }
 
 h5 {
         font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
+        font-size: 14px;
+        font-weight: 600;
         margin: 17px 0;
         color: #6FC97C;
+        line-height: 26px;
+        text-align: end;
 }
 
 h6 {
@@ -52,29 +54,42 @@ h6 {
     font-size: 16px;
     margin: 0;
     font-weight: 100;
-    color:4F4F4F;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    line-height: 22px;
-    color: #AAAAAA;
+    color: #4F4F4F;
 }
 
 q {
     font-family: 'Pavanam', sans-serif;
     font-size: 16px;
-    color:4F4F4F;
 }
 
 blockquote {
-    font-family: 'Pavanam', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
     text-align: right;
-    color:4F4F4F;
+    color: #4f4f4f;
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+  
+blockquote p {
+    display: inline;
 }
 
 li{
@@ -102,4 +117,9 @@ a:hover {
 
 .img:hover{
     opacity: 70%;
+}
+
+code{
+    background-color: none;
+    color: #4f4f4f;
 }
