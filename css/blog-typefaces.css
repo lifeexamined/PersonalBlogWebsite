@@ -1,125 +1,124 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Pavanam&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pavanam&display=swap");
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
-    min-width: 200px;
-    line-height: 48px;
-    color: #4f4f4f
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  min-width: 200px;
+  line-height: 48px;
+  color: #4f4f4f;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 26px;
-    color: #4f4f4f;
-
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #4f4f4f;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 26px;
-    margin:0;
-    color: #4f4f4f;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  color: #4f4f4f;
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    margin: 0;
-    color: grey;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0;
+  color: grey;
 }
 
 h5 {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        margin: 17px 0;
-        color: #6FC97C;
-        line-height: 26px;
-        text-align: end;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 17px 0;
+  color: #6fc97c;
+  line-height: 26px;
+  text-align: end;
 }
 
 h6 {
-    font-family: 'Pavanam', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    font-weight: 100;
+  font-family: "Pavanam", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 100;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: #4F4F4F;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4f4f4f;
 }
 
 q {
-    font-family: 'Pavanam', sans-serif;
-    font-size: 16px;
+  font-family: "Pavanam", sans-serif;
+  font-size: 16px;
 }
 
 blockquote {
-    font-family: 'Open Sans', sans-serif;
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-    text-align: right;
-    color: #4f4f4f;
+  font-family: "Open Sans", sans-serif;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  text-align: right;
+  color: #4f4f4f;
 }
 
 blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-}
-  
-blockquote p {
-    display: inline;
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
 }
 
-li{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    margin: 0 16px;
+blockquote p {
+  display: inline;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0 16px;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-    border-bottom: 2px solid;
+  border-bottom: 2px solid;
 }
 
-.nav-link{
-    border-color: grey;
+.nav-link {
+  border-color: grey;
 }
 
-.social-link:hover{
-    all:initial;
+.social-link:hover {
+  all: initial;
 }
 
-.img:hover{
-    opacity: 70%;
+.img:hover {
+  opacity: 70%;
 }
 
-code{
-    background-color: none;
-    color: #4f4f4f;
+code {
+  background-color: none;
+  color: #4f4f4f;
 }

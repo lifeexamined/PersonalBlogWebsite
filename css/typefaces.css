@@ -1,105 +1,104 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Pavanam&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pavanam&display=swap");
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 22px;
-    min-width: 200px;
-    margin: 0;
-    line-height: 26px;
-    color:#4F4F4F;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  min-width: 200px;
+  margin: 0;
+  line-height: 26px;
+  color: #4f4f4f;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    margin: 0;
-    line-height: 26px;
-    color:#BDBDBD;
-
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  line-height: 26px;
+  color: #bdbdbd;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-    font-size: 22px;
-    line-height: 26px;
-    margin: 0;
-    color: gray;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0;
+  color: gray;
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    line-height: 48px;
-    font-size: 36px;
-    margin:0;
-    color:#4F4F4F;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  line-height: 48px;
+  font-size: 36px;
+  margin: 0;
+  color: #4f4f4f;
 }
 
 h5 {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-        margin: 17px 0;
-        color: #6FC97C;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 17px 0;
+  color: #6fc97c;
 }
 
 h6 {
-    font-family: 'Pavanam', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    font-weight: 100;
-    color:4F4F4F;
+  font-family: "Pavanam", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 100;
+  color: 4f4f4f;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
-    color: #AAAAAA;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #aaaaaa;
 }
 
 q {
-    font-family: 'Pavanam', sans-serif;
-    font-size: 16px;
-    color:4F4F4F;
+  font-family: "Pavanam", sans-serif;
+  font-size: 16px;
+  color: 4f4f4f;
 }
 
 blockquote {
-    font-family: 'Pavanam', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    text-align: right;
-    color:4F4F4F;
+  font-family: "Pavanam", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: right;
+  color: 4f4f4f;
 }
 
-li{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    margin: 0 16px;
+li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0 16px;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
-    border-bottom: 2px solid;
+  border-bottom: 2px solid;
 }
 
-.nav-link{
-    border-color: grey;
+.nav-link {
+  border-color: grey;
 }
 
-.social-link:hover{
-    all:initial;
+.social-link:hover {
+  all: initial;
 }
 
-.img:hover{
-    opacity: 70%;
+.img:hover {
+  opacity: 70%;
 }

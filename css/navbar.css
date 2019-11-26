@@ -1,13 +1,11 @@
-.inline-list{
-    list-style-type: none;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-    align-items: center;
-    height:100%;
-
-    margin: 0;
-
-    color:grey;
+.inline-list {
+  list-style-type: none;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  color: grey;
 }

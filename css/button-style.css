@@ -1,16 +1,16 @@
-button{
-    background-color: #75DAFF;
-    border: none;
-    color: white;
-    padding: 10px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px;
-    width: p;
+button {
+  background-color: #75daff;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: p;
 }
 
-button:hover{
-    opacity: 70%;
+button:hover {
+  opacity: 70%;
 }
