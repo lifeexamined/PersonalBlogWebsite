@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pavanam&display=swap');
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    min-width: 200px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    margin-top:100px;
+}
+
+p {
+    font-family: 'Pavanam', sans-serif;
+    font-size: 16px;
+}
+
+q {
+    font-family: 'Pavanam', sans-serif;
+    font-size: 16px;
+}
+
+blockquote {
+    font-family: 'Pavanam', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: right;
+}
+
+a {
+    font-family: 'Pavanam', sans-serif;
+    font-size: 16px;
+}
+
+li{
+    font-family: 'Pavanam', sans-serif;
+    font-size: 16px;
+}
