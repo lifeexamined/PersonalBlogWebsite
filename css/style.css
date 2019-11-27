@@ -1,16 +1,11 @@
 @import "typefaces.css";
 @import "button-style.css";
 @import "navbar.css";
-@import "socialmedia.css";
+@import "menu-icon.css";
 
 body {
   margin: 0;
   background-color: #e5e5e5;
-}
-
-#quote {
-  color: gray;
-  padding-right: 50px;
 }
 
 .container {
@@ -22,26 +17,12 @@ body {
 
 .inline-list {
   display: none;
-}
-
-ul {
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
 .header {
   display: none;
-}
-
-#menu-icon {
-  display: inline-block;
-  margin: 20px;
-  height: 35px;
-  width: auto;
-}
-
-#menu-icon:hover {
-  opacity: 50%;
 }
 
 .footer {
@@ -91,6 +72,7 @@ ul {
 #card-description {
   margin-top: 5px;
   margin-bottom: 44px;
+  text-align: center;
 }
 
 .social-media {

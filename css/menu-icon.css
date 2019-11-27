@@ -1,0 +1,10 @@
+#menu-icon {
+  display: inline-block;
+  margin: 20px;
+  height: 35px;
+  width: auto;
+}
+
+#menu-icon:hover {
+  opacity: 50%;
+}

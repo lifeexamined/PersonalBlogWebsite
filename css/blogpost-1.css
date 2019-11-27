@@ -1,26 +1,11 @@
 @import "blog-typefaces.css";
 @import "button-style.css";
 @import "navbar.css";
-@import "socialmedia.css";
+@import "menu-icon.css";
 
 body {
   margin: 0;
   background-color: #e5e5e5;
-}
-
-#quote {
-  color: gray;
-  padding-right: 50px;
-}
-
-body {
-  margin: 0;
-  background-color: #e5e5e5;
-}
-
-#quote {
-  color: gray;
-  padding-right: 50px;
 }
 
 .container {
@@ -54,17 +39,6 @@ body {
   display: inline-block;
   height: auto;
   text-align: right;
-}
-
-#menu-icon {
-  display: inline-block;
-  margin: 15px;
-  height: 35px;
-  width: auto;
-}
-
-#menu-icon:hover {
-  opacity: 50%;
 }
 
 .footer {
