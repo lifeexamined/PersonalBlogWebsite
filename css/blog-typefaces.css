@@ -123,3 +123,15 @@ code {
   background-color: none;
   color: #4f4f4f;
 }
+
+figcaption {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  background: 100%;
+  background-color: #f9f9f9;
+  padding: 5px 0;
+  margin: 0;
+  color: darkgrey;
+}
