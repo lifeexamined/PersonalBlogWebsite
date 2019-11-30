@@ -75,6 +75,11 @@ body {
   text-align: center;
 }
 
+#bio:hover {
+  border: none;
+  opacity: 70%;
+}
+
 .social-media {
   display: flex;
   flex-direction: row;

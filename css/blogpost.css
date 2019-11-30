@@ -8,6 +8,14 @@ body {
   background-color: #e5e5e5;
 }
 
+.share-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 155px;
+}
+
 .container {
   height: 100vh;
   width: 100%;
@@ -86,15 +94,19 @@ body {
   margin-bottom: 44px;
 }
 
+#bio:hover {
+  border: none;
+  opacity: 70%;
+}
+
 .social-media {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 
   height: 77px;
   width: 100%;
-  border-top: 1px solid #c4c4c4;
   padding: 10px 0;
 }
 
@@ -152,6 +164,13 @@ body {
   background-image: url("../img/me.png");
   background-repeat: no-repeat;
   background-size: 170%;
+  background-position: center center;
+  margin: 0;
+}
+
+#me-img {
+  width: 100%;
+  height: auto;
   background-position: center center;
   margin: 0;
 }
@@ -250,12 +269,11 @@ body {
   .social-media {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 
     height: 77px;
     width: 100%;
-    border-top: 1px solid #c4c4c4;
     padding: 10px 0;
   }
 

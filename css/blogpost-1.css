@@ -8,6 +8,19 @@ body {
   background-color: #e5e5e5;
 }
 
+#bio:hover {
+  border: none;
+  opacity: 70%;
+}
+
+.share-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 155px;
+}
+
 .container {
   height: 100%;
   width: 100%;
@@ -107,15 +120,6 @@ body {
   margin: 0 10px;
 }
 
-#profile-pic {
-  width: 100%;
-  height: 50%;
-  background-image: url("../img/me.png");
-  background-repeat: no-repeat;
-  background-size: 170%;
-  background-position: center center;
-}
-
 .nested {
   display: flex;
   flex-direction: column;
@@ -152,11 +156,6 @@ body {
 #blog-img {
   width: 100%;
   height: auto;
-  background-image: url("../img/me.png");
-  background-repeat: no-repeat;
-  background-size: 170%;
-  background-position: center center;
-  margin: 0;
 }
 
 @media (min-width: 950px) {
@@ -270,12 +269,17 @@ body {
 
   #blog-img {
     width: 100%;
-    height: 300px;
-    background-image: url("../img/me.png");
-    background-repeat: no-repeat;
-    background-size: 170%;
-    background-position: center center;
-    margin: 0;
+    height: auto;
+  }
+
+  iframe {
+    width: 100%;
+    height: 720px;
+  }
+
+  .sketchfab {
+    font-weight: bold;
+    color: #1caad9;
   }
 
   .nested {

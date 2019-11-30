@@ -5,6 +5,13 @@
       <title>Nikita's Blog Website</title>
       <meta name="description" content="This is my personal blog websie!" content="width=device-width, initial-scale=1, maximum-scale=1">
       <link rel="stylesheet" href="./css/blogpost.css">
+      <meta property="og:url"           content="https://nikita-a-novik.github.io/PersonalBlogWebsite/blogpost1.html" />
+      <meta property="og:type"          content="website" />
+      <meta property="og:title"         content="Nikita's Blog" />
+      <meta property="og:description"   content="This is the most awesome blog I've ever seen!" />
+      <meta property="og:image"         content="https://www.wallpaperup.com/uploads/wallpapers/2014/05/29/360196/a3aa0889da407e8fadaa49009aa9a62c-700.jpg" />
+      <meta property="og:image:width"         content="500" />
+      <meta property="og:image:height"         content="500" />
    </head>
    <body>
       <div class="container">
@@ -12,9 +19,9 @@
             <a class="social-link" href="./index.html"><img id="menu-icon" src="./img/go-back-icon.png"></a>
             <ul class="inline-list">
                <li><a class="nav-link" href="./index.html">Home</a></li>
-               <li><a class="nav-link" href="./blogpost1.html">Post 1</a></li>
-               <li><b>Post 2</b></li>
-               <li><a class="nav-link" href="./blogpost3.html">Post 3</a></li>
+               <li><a class="nav-link" href="./blogpost1.html">Latest Post</a></li>
+               <li><b>2nd Latest</b></li>
+               <li><a class="nav-link" href="./blogpost3.html">3rd Latest</a></li>
             </ul>
          </div>
          <div class="pdng-two"></div>
@@ -36,13 +43,46 @@
                   </div>
                   <div id="break-3"></div>
                   <h5>November 17, 2019 by Nikita Novik</h5>
+                  <div class="share-buttons">
+                     <div class="fb-share-button" data-href="https://nikita-a-novik.github.io/PersonalBlogWebsite/blogpost2.html" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+                     <a class="twitter-share-button"
+                        href="https://twitter.com/intent/tweet?url=https://nikita-a-novik.github.io/PersonalBlogWebsite/blogpost2.html"
+                        data-size="large">Tweet</a>
+                  </div>
                </div>
             </div>
          </div>
          <div class="footer">
-            <h6>© Nikita Novik 2019</h6>
+            <h6>© <a id="bio" href="./bio.html">Nikita Novik</a> 2019</h6>
          </div>
          <div class="pdng-one"></div>
       </div>
+      </div>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+         fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+      <script>window.twttr = (function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0],
+           t = window.twttr || {};
+         if (d.getElementById(id)) return t;
+         js = d.createElement(s);
+         js.id = id;
+         js.src = "https://platform.twitter.com/widgets.js";
+         fjs.parentNode.insertBefore(js, fjs);
+         
+         t._e = [];
+         t.ready = function(f) {
+           t._e.push(f);
+         };
+         
+         return t;
+         }(document, "script", "twitter-wjs"));
+      </script>
    </body>
 </html>
