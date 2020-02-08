@@ -63,6 +63,32 @@ p {
   color: #aaaaaa;
 }
 
+p.italic {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 22px;
+  color: #aaaaaa;
+}
+
+p.bold {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 22px;
+  color: #aaaaaa;
+}
+
+p.underline {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  line-height: 22px;
+  color: #aaaaaa;
+}
+
 q {
   font-family: "Pavanam", sans-serif;
   font-size: 16px;
